@@ -1,56 +1,93 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "zzzyoonnn"
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
+redirect_from:
+    - /about/
+    - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+# 👋 안녕하세요, 신지윤입니다
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+트랜잭션 처리 시스템과 핵심 금융 로직에 관심있는 백엔드 개발자입니다.
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+동시성 트랜잭션 환경에서 금융 시스템이 어떻게 **원자성(Atomicity), 일관성(Consistency), 데이터 무결성(Data Integrity)** 을 보장하는지에 관심이 있습니다.
+핵심 뱅킹 기능을 직접 구현하고 레거시 시스템을 마이그레이션하는 경험을 통해, 신뢰할 수 있고 유지보수 가능한 금융 소프트웨어를 구축하는 것에 강한 흥미를 갖게 되었습니다.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+---
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+# 💳 FinFlow-backend
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+**Repository: https://github.com/zzzyoonnn/FinFlow-backend**
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+트랜잭션 무결성에 초점을 맞춰 코어 뱅킹 운영을 시뮬레이션한 백엔드 애플리케이션입니다.
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+다음과 같은 주요 뱅킹 기능을 설계하고 구현했습니다.
 
-**Markdown generator**
+- 입금 (Deposit)
+- 출금 (Withdrawal)
+- 이체 (Transfer)
+- 거래 내역 관리 (Transaction History Management)
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+### 🔎 설계 접근 방식
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+- **핵심 뱅킹 기능 설계**: 입금, 출금, 이체 및 거래 내역 관리 기능 구현
+- **트랜잭션 관리**: 출금과 이체를 하나의 @Transactional 경계 내에서 처리하여 원자성 보장
+- **도메인 중심 설계**: 계좌 소유권, 비밀번호 검증, 잔액 확인 등의 검증 로직을 Account 도메인 엔티티에 위임
+- **무결성 보장**: 명시적인 비즈니스 규칙을 통해 음수 잔액 발생 방지
+- **추적성 확보**: 실행 시점의 잔액 스냅샷을 함께 기록하여 감사 가능성(Auditability) 확보
+- **명확한 프로세스 구조화**: 처리 흐름을 검증(Validation) → 상태 변경(State Mutation) → 영속화(Persistence) → 응답(Response) 구조로 명확하게 설계
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+이 구현을 통해, 동시 요청 환경에서 데이터 불일치, 레이스 컨디션, 중복 실행을 어떻게 방지하는지에 대해 특히 큰 관심을 가지게 되었습니다.
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+👉 Core Banking Service Implementation: [AccountService.java](https://github.com/zzzyoonnn/FinFlow-backend/blob/main/src/main/java/com/FinFlow/service/AccountService.java)
+
+### 📝 관련 글
+
+- [계좌가 많아질 경우, 어떻게 설계하면 좋을까?🤔](https://zzzyoonnn.github.io/posts/2026/01/n+1-1/)
+- N+1은 왜 발생할까?🤔 (Fetch Join 적용 전후 성능 비교)
+- N+1은 왜 JPA에서 발생할까?🤔 (JPQL)
+- N+1은 메모리에 어떤 영향을 미칠까?🤔
+- 영속성 컨텍스트는 N+1과 어떤 관계가 있을까?🤔
+- Fetch Join은 영속성 컨텍스트에서 어떻게 동작할까?🤔
+- Hibernate 내부에서 영속성 컨텍스트는 어떻게 동작할까?🤔
+- N+1은 GC를 왜 자주 발생시킬까?🤔
+
+---
+
+# 🔄 Servlet2Spring
+
+**Repository: https://github.com/zzzyoonnn/Servlet2Spring**
+
+백엔드 아키텍처의 진화와 프레임워크 중심 설계에 대한 이해 과정을 담은 프로젝트입니다. JSP 기반 아키텍처로 시작하여, 점진적으로 Spring MVC와 Spring Boot로 발전시켰습니다.
+
+### 🔎 마이그레이션 핵심 포인트
+
+- **계층형 아키텍처 리팩토링**: Controller, Service, Domain 계층 간 책임 분리 개선
+- **설정 최적화**: Spring Boot Auto-configuration을 활용한 설정 간소화
+- **보안 강화**: Spring Security를 활용한 보안 구조 강화
+- **유지보수성 향상**: 반복적인 보일러플레이트 코드를 제거하고 코드 가독성 증대
+- **빌드 및 배포 관리**: Maven을 통한 배포 및 의존성 관리 개선
+
+이 마이그레이션 과정을 통해, 특히 신뢰성이 중요한 환경에서 안정성을 해치지 않으면서 어떻게 시스템을 현대화할 수 있을지 이해하게 되었습니다.
+
+---
+
+# 🛠 Tech Stack
+
+- Backend: Java, Spring Boot, Spring Data JPA, Spring Security (JWT)
+- Database: MySQL, H2 (Testing)
+- Infrastructure: AWS (EC2, RDS, S3)
+- Build Tool: Maven
+
+# 🎯 관심 분야
+
+- 코어 뱅킹 시스템
+- 트랜잭션 처리
+- 금융 데이터 무결성
+- 고신뢰성 백엔드 시스템
+
+# 💡 지향하는 방향
+
+기능 개발 속도보다 정확성과 신뢰성을 우선시하는 백엔드 시스템을 구축하는 것을 목표로 합니다.
+특히 데이터 무결성이 중요한 금융 도메인에서 안정적으로 동작하는 시스템을 만드는 개발자로 성장하고 싶습니다.
