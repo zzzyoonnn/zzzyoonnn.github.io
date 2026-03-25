@@ -1,13 +1,11 @@
 ---
 permalink: /
-title: "zzzyoonnn"
+title: "👋 안녕하세요, 신지윤입니다"
 author_profile: true
 redirect_from:
     - /about/
     - /about.html
 ---
-
-# 👋 안녕하세요, 신지윤입니다
 
 트랜잭션 처리 시스템과 핵심 금융 로직에 관심있는 백엔드 개발자입니다.
 
@@ -18,7 +16,7 @@ redirect_from:
 
 # 💳 FinFlow-backend
 
-**Repository: https://github.com/zzzyoonnn/FinFlow-backend**
+**Repository**: https://github.com/zzzyoonnn/FinFlow-backend
 
 트랜잭션 무결성에 초점을 맞춰 코어 뱅킹 운영을 시뮬레이션한 백엔드 애플리케이션입니다.
 
@@ -57,7 +55,7 @@ redirect_from:
 
 # 🔄 Servlet2Spring
 
-**Repository: https://github.com/zzzyoonnn/Servlet2Spring**
+**Repository**: https://github.com/zzzyoonnn/Servlet2Spring
 
 백엔드 아키텍처의 진화와 프레임워크 중심 설계에 대한 이해 과정을 담은 프로젝트입니다. JSP 기반 아키텍처로 시작하여, 점진적으로 Spring MVC와 Spring Boot로 발전시켰습니다.
 
@@ -80,6 +78,8 @@ redirect_from:
 - Infrastructure: AWS (EC2, RDS, S3)
 - Build Tool: Maven
 
+---
+
 # 🎯 관심 분야
 
 - 코어 뱅킹 시스템
@@ -87,7 +87,9 @@ redirect_from:
 - 금융 데이터 무결성
 - 고신뢰성 백엔드 시스템
 
+---
+
 # 💡 지향하는 방향
 
 기능 개발 속도보다 정확성과 신뢰성을 우선시하는 백엔드 시스템을 구축하는 것을 목표로 합니다.
-특히 데이터 무결성이 중요한 금융 도메인에서 안정적으로 동작하는 시스템을 만드는 개발자로 성장하고 싶습니다.
+특히 데이터 무결성이 중요한 **금융 도메인에서 안정적으로 동작하는 시스템을 만드는 개발자**로 성장하고 싶습니다.
