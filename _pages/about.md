@@ -16,7 +16,7 @@ redirect_from:
 
 # 💳 FinFlow-backend
 
-**Repository**: <https://github.com/zzzyoonnn/FinFlow-backend>
+**Repository**: [https://github.com/zzzyoonnn/FinFlow-backend](https://github.com/zzzyoonnn/FinFlow-backend)
 
 트랜잭션 무결성에 초점을 맞춰 코어 뱅킹 운영을 시뮬레이션한 백엔드 애플리케이션입니다.
 
@@ -55,7 +55,7 @@ redirect_from:
 
 # 🔄 Servlet2Spring
 
-**Repository**: <https://github.com/zzzyoonnn/Servlet2Spring>
+**Repository**: [https://github.com/zzzyoonnn/Servlet2Spring](https://github.com/zzzyoonnn/Servlet2Spring)
 
 백엔드 아키텍처의 진화와 프레임워크 중심 설계에 대한 이해 과정을 담은 프로젝트입니다. JSP 기반 아키텍처로 시작하여, 점진적으로 Spring MVC와 Spring Boot로 발전시켰습니다.
 
