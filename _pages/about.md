@@ -8,6 +8,7 @@ redirect_from:
 ---
 
 # 👋 안녕하세요, 신지윤입니다
+
 트랜잭션 처리 시스템과 핵심 금융 로직에 관심있는 백엔드 개발자입니다.
 
 동시성 트랜잭션 환경에서 금융 시스템이 어떻게 **원자성(Atomicity), 일관성(Consistency), 데이터 무결성(Data Integrity)** 을 보장하는지에 관심이 있습니다.
@@ -44,12 +45,12 @@ redirect_from:
 ### 📝 관련 글
 
 - [계좌가 많아질 경우, 어떻게 설계하면 좋을까?🤔](https://zzzyoonnn.github.io/posts/2026/01/n+1-1/)
-- [N+1은 왜 발생할까?🤔 (Fetch Join 적용 전후 성능 비교)](https://zzzyoonnn.github.io/posts/2026/02/n+1-2/)
-- N+1은 왜 JPA에서 발생할까?🤔 (JPQL)
-- N+1은 메모리에 어떤 영향을 미칠까?🤔
-- 영속성 컨텍스트는 N+1과 어떤 관계가 있을까?🤔
-- Fetch Join은 영속성 컨텍스트에서 어떻게 동작할까?🤔
-- Hibernate 내부에서 영속성 컨텍스트는 어떻게 동작할까?🤔
+- [N+1은 왜 발생할까?🤔(Fetch Join 적용 전후 성능 비교)](https://zzzyoonnn.github.io/posts/2026/02/n+1-2/)
+- [N+1은 왜 JPA에서 발생할까?🤔(JPQL)](https://zzzyoonnn.github.io/posts/2026/03/n+1-3/)
+- [N+1은 메모리에 어떤 영향을 미칠까?🤔(JVM)](https://zzzyoonnn.github.io/posts/2026/03/n+1-4/)
+- [영속성 컨텍스트는 N+1과 어떤 관계가 있을까?🤔(Hibernate)](https://zzzyoonnn.github.io/posts/2026/03/n+1-5/)
+- [Fetch Join은 영속성 컨텍스트에서 어떻게 동작할까?🤔](https://zzzyoonnn.github.io/posts/2026/03/n+1-6/)
+- [Hibernate 내부에서 영속성 컨텍스트는 어떻게 동작할까?🤔](https://zzzyoonnn.github.io/posts/2026/03/n+1-7/)
 - N+1은 GC를 왜 자주 발생시킬까?🤔
 
 ---
