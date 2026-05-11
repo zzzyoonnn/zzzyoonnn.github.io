@@ -1,8 +1,11 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "N+1 성능 개선"
+excerpt: "JPA Fetch Join을 활용한 N+1 문제 해결 및 성능 최적화"
+header:
+  teaser: /files/portfolio/n-plus-one-performance-improvement/ko/01-intro.png
 collection: portfolio
 ---
+
 <!--
 This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
 -->
