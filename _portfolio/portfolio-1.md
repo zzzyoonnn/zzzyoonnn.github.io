@@ -1,6 +1,6 @@
 ---
-title: "N+1 성능 개선"
-excerpt: "JPA Fetch Join을 활용한 N+1 문제 해결 및 성능 최적화"
+title: "N+1 문제 해결을 통한 성능 및 데이터 정합성 개선"
+excerpt: "데이터베이스 쿼리부터 가비지 컬렉션까지: 성능이 실제로 무너지는 지점"
 header:
   teaser: /files/portfolio/n-plus-one-performance-improvement/ko/01-intro.png
 collection: portfolio
