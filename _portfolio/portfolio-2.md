@@ -1,8 +1,8 @@
 ---
-title: "미완"
-excerpt: "고민중"
+title: "FinFlow"
+excerpt: "금융 플랫폼 백엔드 REST API"
 header:
-  teaser: /files/portfolio/test/test1_page-0001.jpg
+  teaser: /files/portfolio/test/page-0001.jpg
 collection: portfolio
 ---
 
