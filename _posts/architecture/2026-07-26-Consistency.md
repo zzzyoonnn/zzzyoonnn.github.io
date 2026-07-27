@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "금융 시스템에서 데이터 정합성을 지키기 위해 가장 먼저 고려해야 할 것은 무엇일까?🤔"
+title: "금융 시스템에서 데이터 정합성을 지키기 위해 고려해야 할 것은 무엇일까?🤔"
 subtitle: "한줄 요약"
 date: 2026-07-26
 permalink: /posts/2026/07/architecture/consistency/
