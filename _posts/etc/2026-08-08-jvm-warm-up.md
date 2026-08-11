@@ -8,12 +8,11 @@ background: '/img/backgrounds/etc/jvm-warm-up.png'
 categories: 
 
 tags:
-    - Architecture
-    - Financial
-    - FinTech
-    - Redis
-    - Database
-    - RDB
+    - JVM
+    - JIT-Compiler
+    - Warm-up
+    - Class Loading
+    - Java
 ---
 
 ### 목차
@@ -138,7 +137,7 @@ Java/Kotlin Bytecode
 
 ## Tier 구조
 
-JIT 컴파일러는 기본적으로 Tiered Compliation이라는 매커니즘을 사용하여 최적화를 진행한다. 즉, 자주 실행되는 코드일수록 더 높은 Tier에서 더욱 정교한 최적화가 이루어진다. 이때 컴파일 단위는 주로 메소드 단위이며, 네이티브 코드로 변환된다.
+C1과 C2는 JIT Compiler 안에서 서로 다른 수준의 최적화를 담당하는 컴파일러이다. Tier 3과 Tier 4는 컴파일 레벨이다. 일반적인 Tiered Compilation에서는 Tier 0에서 인터프리터로 실행을 시작하고, 실행 빈도와 프로파일링 정보를 바탕으로 C1과 C2 컴파일러를 활용해 점진적으로 최적화한다.
 
 | Tier | 컴파일러 | 설명 |
 |---|---|---|
@@ -148,7 +147,6 @@ JIT 컴파일러는 기본적으로 Tiered Compliation이라는 매커니즘을 
 | Tier 3 | C1 | 전체 프로파일링 |
 | Tier 4 | C2 | 최대 최적화 |
 
-C1과 C2는 JIT Compiler 안에서 서로 다른 수준의 최적화를 담당하는 컴파일러이다. Tier 3과 Tier 4는 컴파일 레벨이다. 일반적인 Tiered Compilation에서는 Tier 0에서 인터프리터로 실행을 시작하고, 실행 빈도와 프로파일링 정보를 바탕으로 C1과 C2 컴파일러를 활용해 점진적으로 최적화한다.
 
 ## C1 Compiler
 
