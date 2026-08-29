@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "왜 JVM은 워밍업이 필요할까?🤔(JIT 컴파일과 실행 성능의 관계)"
-subtitle: "한줄 요약"
+subtitle: "JIT 컴파일이 Java 실행 성능에 미치는 영향"
 date: 2026-08-08
 permalink: /posts/2026/08/etc/jvm-warm-up
 background: '/img/backgrounds/etc/jvm-warm-up.png'

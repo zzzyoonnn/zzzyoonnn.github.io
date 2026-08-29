@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "금융 시스템에서 데이터 정합성을 지키기 위해 고려해야 할 것은 무엇일까?🤔"
-subtitle: "한줄 요약"
+subtitle: "금융 데이터의 정합성을 지키는 트랜잭션과 락 설계"
 date: 2026-07-26
 permalink: /posts/2026/07/architecture/consistency/
 background: '/img/backgrounds/architecture/consistency.png'
