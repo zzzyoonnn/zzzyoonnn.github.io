@@ -38,7 +38,7 @@ tags:
 리트코드 문제를 풀면서 Space Complexity를 개선했음에도 불구하고, 실행 결과에서는 눈에 띄는 차이가 나타나지 않았다. 그 이유가 궁금해 알아보게 되었다.
 
 - [238. Product of Array Except Self](https://github.com/zzzyoonnn/LeetCode/blob/main/medium/238.%20Product%20of%20Array%20Except%20Self.md)
-- [1137. N-th Tribonacci Number](https://github.com/zzzyoonnn/LeetCode/blob/main/medium/1137.%20N-th%20Tribonacci%20Number.md)
+- [1137. N-th Tribonacci Number](https://github.com/zzzyoonnn/LeetCode/blob/main/easy/1137.%20N-th%20Tribonacci%20Number.md)
 
 여러 가지 이유가 있겠지만, LeetCode의 채점 환경에 따라 같은 코드를 여러 번 제출하더라도 측정 결과가 일정하지 않을 수 있다. 특히 Java는 **JVM Warm-up과 JIT 컴파일의 영향, 서버의 부하 상태** 등에 따라 실행 시간에 편차가 발생할 수 있기 때문에, 단일 제출 결과만으로 두 코드의 성능을 비교하기에는 한계가 있다.
 
