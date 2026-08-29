@@ -1,2 +1,86 @@
 // Import Core Clean Blog SCSS
 @import "../assets/vendor/startbootstrap-clean-blog/scss/styles.scss";
+.language-switcher {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0 0.5rem 0.75rem;
+}
+
+.language-switcher__buttons {
+  display: inline-flex;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.12);
+}
+
+.language-switcher__button {
+  min-width: 2rem;
+  padding: 0.25rem 0.5rem;
+  border: 0;
+  border-right: 1px solid rgba(255, 255, 255, 0.35);
+  background: transparent;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 800;
+  line-height: 1.25rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.language-switcher__button:last-child {
+  border-right: 0;
+}
+
+.language-switcher__button:hover,
+.language-switcher__button:focus,
+.language-switcher__button.is-active {
+  outline: 0;
+  background: #fff;
+  color: #212529;
+}
+
+.translation-widget {
+  position: fixed;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+body {
+  top: 0 !important;
+}
+
+.goog-te-banner-frame,
+.skiptranslate iframe {
+  display: none !important;
+}
+
+@media (max-width: 991.98px) {
+  .language-switcher {
+    padding: 0.75rem 0;
+  }
+
+  #mainNav.is-fixed .language-switcher__buttons,
+  #mainNav.is-visible .language-switcher__buttons,
+  #mainNav .navbar-collapse.show .language-switcher__buttons {
+    border-color: rgba(0, 0, 0, 0.25);
+    background: rgba(0, 0, 0, 0.04);
+  }
+
+  #mainNav.is-fixed .language-switcher__button,
+  #mainNav.is-visible .language-switcher__button,
+  #mainNav .navbar-collapse.show .language-switcher__button {
+    border-color: rgba(0, 0, 0, 0.18);
+    color: #212529;
+  }
+
+  #mainNav.is-fixed .language-switcher__button.is-active,
+  #mainNav.is-visible .language-switcher__button.is-active,
+  #mainNav .navbar-collapse.show .language-switcher__button.is-active {
+    background: #0085a1;
+    color: #fff;
+  }
+}

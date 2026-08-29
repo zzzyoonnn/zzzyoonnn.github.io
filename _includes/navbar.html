@@ -20,7 +20,17 @@
         <li class="nav-item">
           <a class="nav-link" href="{{"/contact" | relative_url }}">Contact</a>
         </li>
+        <li class="nav-item language-switcher notranslate" aria-label="Language selection">
+          <div class="language-switcher__buttons" role="group" aria-label="Translate page">
+            <button type="button" class="language-switcher__button" data-language="ko" aria-label="한국어로 보기" aria-pressed="true">한</button>
+            <button type="button" class="language-switcher__button" data-language="en" aria-label="View in English" aria-pressed="false">EN</button>
+            <button type="button" class="language-switcher__button" data-language="ja" aria-label="日本語で表示" aria-pressed="false">日</button>
+          </div>
+          <span class="sr-only language-switcher__status" aria-live="polite"></span>
+        </li>
       </ul>
     </div>
   </div>
 </nav>
+
+<div id="google_translate_element" class="translation-widget" aria-hidden="true"></div>
