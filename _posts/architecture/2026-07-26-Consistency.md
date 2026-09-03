@@ -213,14 +213,14 @@ ANSI/ISO SQL 표준은 이상 현상의 허용 여부에 따라 격리 수준을
   - 데이터베이스가 제공하는 락을 쓰지 않고, 애플리케이션 레벨에서 버전(@Version) 정보를 이용한다. 
   - 락을 직접 걸지 않아 동시 요청 성능이 좋지만, 충돌이 발생하면 트랜잭션이 롤백되므로 애플리케이션에서 재시도 로직을 직접 구현해야 한다.
 
-<img src="/img/posts/architecture/consistency/1.png" alt="낙관적 락" width="800">
+![낙관적 락](/img/posts/architecture/consistency/1.png)
 
 - 비관적 락 (Pessimistic Lock)
   - 트랜잭션들이 동일한 데이터를 동시에 수정할 것이라고 비관적으로 가정하여, 데이터를 읽는 순간부터 데이터베이스 락을 거는 방식이다.
   - 비관적 락은 SELECT ... FOR UPDATE SQL 쿼리로 실행되며, 대상 Row에 X-Lock(Exclusive Lock, 배타 락)을 획득한다. 
   - 데이터 무결성을 강력하게 보장하지만, 대기 시간으로 인해 동시성이 떨어지거나 데드락(교착 상태)이 발생할 수 있다.
 
-<img src="/img/posts/architecture/consistency/2.png" alt="비관적 락" width="800">
+![비관적 락](/img/posts/architecture/consistency/2.png)
 
 #### 왜 금융 계좌 시스템에서는 비관적 락인가?
 - 낙관적 락(Optimistic Lock - @Version)의 한계

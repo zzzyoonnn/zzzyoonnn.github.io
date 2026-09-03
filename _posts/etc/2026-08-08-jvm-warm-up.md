@@ -60,7 +60,9 @@ JVM은 Java 프로그램과 운영체제 사이에서 중개자 역할을 수행
 **JVM에 대해 알아야 하는 이유는 한정된 메모리를 효율적으로 사용하여 최고의 성능을 내기 위해서** 이다. 메모리 효율성을 위해 메모리 구조를 알아야 한다. 동일한 기능의 프로그램이더라도 메모리 관리에 따라 성능이 좌우된다. 메모리 관리가 되지 않은 경우 속도저하 현상이나 튕김 현상 등이 일어날 수 있다.
 
 ### JVM의 구조
-<img src="/img/posts/etc/jvm/1.png" alt="JVM 구조" width="800">
+
+![JVM의 구조](/img/posts/etc/jvm/1.png)
+
 JVM은 크게 아래 4가지로 구성된다.
 
 - 자바 인터프리터(interpreter)
@@ -197,7 +199,7 @@ JVM이 JIT 컴파일을 어떻게 수행할지 결정하는 설정값을 확인�
 java -XX:+PrintFlagsFinal -version | grep -i compile
 ```
 
-<img src="/img/posts/etc/jvm/2.png" alt="JIT 컴파일 설정 확인하기" width="800">
+![JIT 컴파일 설정 확인하기](/img/posts/etc/jvm/2.png)
 
 ---
 
@@ -285,7 +287,7 @@ public class Main {
 }
 ```
 
-<img src="/img/posts/etc/jvm/3.png" alt="웜업 효과 확인하기" width="400">
+![웜업 효과 확인하기](/img/posts/etc/jvm/3.png)
 
 명시적인 Warm-up을 수행하기 전에는 초기 실행 비용 등의 영향으로 3.23ms가 측정되었지만, Warm-up 이후에는 약 0.57ms 수준으로 실행 시간이 안정화되었다. 이는 JVM이 코드를 실행하면서 프로파일링하고 JIT 컴파일 및 최적화를 수행하기 때문에 초기 실행과 이후 실행의 성능이 달라질 수 있음을 보여준다.
 
