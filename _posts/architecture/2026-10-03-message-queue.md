@@ -2,7 +2,7 @@
 layout: post
 title: "왜 시스템 간 통신에 Message Queue를 사용하는 걸까?🤔"
 subtitle: "비동기 처리와 서비스 분리부터 RabbitMQ와 Kafka의 차이까지"
-date: 2026-07-11
+date: 2026-10-03
 permalink: /posts/2026/10/architecture/message-queue/
 background: '/img/backgrounds/architecture/message-queue.png'
 categories: architecture
