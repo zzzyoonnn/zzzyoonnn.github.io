@@ -68,6 +68,31 @@ body {
   object-fit: contain;
 }
 
+.post-content table {
+  width: 100%;
+  margin: 1.75rem 0;
+  border-collapse: collapse;
+}
+
+.post-content th,
+.post-content td {
+  padding: 0.75rem;
+  border: 1px solid #adb5bd;
+  text-align: left;
+  vertical-align: top;
+}
+
+.post-content thead th {
+  border-bottom-width: 2px;
+  border-bottom-color: #868e96;
+  background-color: #f1f3f5;
+  font-weight: 700;
+}
+
+.post-content tbody tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
 @media (max-width: 991.98px) {
   .language-switcher {
     padding: 0.75rem 0;
@@ -92,5 +117,19 @@ body {
   #mainNav .navbar-collapse.show .language-switcher__button.is-active {
     background: #0085a1;
     color: #fff;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .post-content table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .post-content th,
+  .post-content td {
+    padding: 0.6rem;
+    font-size: 0.9rem;
   }
 }
